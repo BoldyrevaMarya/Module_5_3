@@ -38,7 +38,7 @@ class House:
 
     def __iadd__(self, value):
         if not isinstance(value, int):
-            return NotImplemented
+            return
         self.number_of_floors += value
         return self
 
